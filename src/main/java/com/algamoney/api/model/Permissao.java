@@ -49,7 +49,4 @@ public class Permissao {
 			return false;
 		return true;
 	}
-	
-	
-
 }
