@@ -22,7 +22,7 @@ import org.springframework.security.oauth2.provider.token.store.JwtTokenStore;
 import com.algamoney.api.config.token.CustomTokenEnhancer;
 import com.algamoney.api.security.AppUserDetailsService;
 
-//@Profile("oauth-security")
+@Profile("oauth-security")
 @Configuration
 @EnableAuthorizationServer
 public class AuthorizationServerConfig extends AuthorizationServerConfigurerAdapter {
